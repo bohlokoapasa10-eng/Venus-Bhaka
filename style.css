@@ -1,4 +1,10 @@
 body{
+  background-image:"background.jpg"
+  background-size:"cover"
+  background-position:"center"
+  background-repeat:"no repeat"  
+
+  
   margin-right: 150px;
   margin-left: 150px;
   font-size: 18px;
