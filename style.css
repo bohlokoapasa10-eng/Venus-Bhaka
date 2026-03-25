@@ -30,6 +30,42 @@ body{
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #FFB6C1;
+
+  /* Floating cupcakes */
+.cupcake {
+    width: 60px;
+    position: fixed;
+    bottom: -100px;
+    animation: floatUp 7s linear infinite;
+    z-index: 1;
+}
+
+/* Different positions */
+.cupcake:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.cupcake:nth-child(2) {
+    left: 50%;
+    animation-delay: 2s;
+}
+
+.cupcake:nth-child(3) {
+    left: 80%;
+    animation-delay: 4s;
+}
+
+/* Animation */
+@keyframes floatUp {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-900px);
+        opacity: 0;
+    }
   color: white;
 }
 
