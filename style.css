@@ -32,19 +32,8 @@ body{
   background-color: #FFB6C1;
   color: white;
 }
-  <style>
-@keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0px); }
-}
+ 
 
-.cupcake {
-    animation: float 3s ease-in-out infinite;
-    position: absolute;
-    /* add positioning here (top, left, etc.) */
-}
-</style>
-}
+
 
 
