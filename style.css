@@ -1,4 +1,8 @@
 body{
+  background-image: url("background.jpg");
+    background-size: cover;      /* fills screen */
+    background-position: center; /* center image */
+    background-repeat: no-repeat;
   margin-right: 150px;
   margin-left: 150px;
   font-size: 18px;
